@@ -6,6 +6,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mondrian Project</title>
   <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .painting {
+      background-color: #000;
+      height: 748px;
+      width: 748px;
+    }
+
+    .container {
+      display: grid;
+      gap: 9px;
+      grid-template-columns: 320px 198px 153px auto;
+      grid-template-rows: 414px 130px 155px 22px;
+      
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .blue {
+      background-color: #004592;
+      border-bottom: 10px solid black;
+    }
+
+    .yellow {
+      background-color: #f9d01e;
+    }
+
+    .black {
+      background-color: #232629;
+    }
+
+    .grey {
+      background-color: #f0f1ec;
+    }
+
+    .one {
+      grid-column: span 3;
+    }
+
+    .two {
+      grid-row: span 2;
+    }
+    
+    .three {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .four {
+      grid-row: span 2;
+    }
+
     /* 
     Write your CSS here 
     Gap Colour: #000
@@ -23,7 +82,19 @@
 </head>
 
 <body>
-  <!-- Write your HTML here -->
+<div class="painting">
+  <div class="container">
+    <div class="red"></div>
+    <div class="grey one"></div>
+    <div class="grey two"></div>
+    <div class="grey three"></div>
+    <div class="blue"></div>
+    <div class="grey four"></div>
+    <div class="grey five"></div>
+    <div class="yellow"></div>
+    <div class="black"></div>
+  </div>
+</div>
 </body>
 
 </html>
