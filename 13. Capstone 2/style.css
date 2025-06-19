@@ -1,0 +1,209 @@
+.title-header{
+    position: relative;
+}
+
+.title {
+    font-family: "Hepta Slab", serif;
+    color: #112D4E;
+}
+
+.sub-title {
+    font-family: "Hepta Slab", serif;
+    color: #112D4E;
+    font-weight: bold;
+}
+
+.bi {
+    position: absolute;
+    width: 54px; 
+    height: 54px;
+    color: #3F72AF75;
+}
+
+.bi-apple-music {
+    top: 6%;
+    left: 11%;
+}
+
+.bi-airplane-fill {
+    top: 67%;
+    left: 85%;
+}
+
+.bi-award-fill {
+    top: 43%;
+    left: 22%;
+}
+
+.bi-cake2-fill {
+    top: 52%;
+    left: 68%;
+}
+
+.bi-disc-fill {
+    top: 18%;
+    left: 78%;
+}
+
+.bi-flask-fill {
+    top: 3%;
+    left: 30%;
+}
+
+.bi-lightning-fill {
+    top: 1%;
+    left: 90%
+}
+
+.bi-rocket-fill {
+    top: 70%;
+    left: 2%;
+}
+
+.bi-star-fill {
+    top: 74%;
+    left: 37%;
+}
+
+.bi-speaker-fill {
+    top: 1%;
+    left: 63%;
+}
+
+.selfie {
+    height: 150px;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+.bio {
+    background-color: #112D4E;
+    color: #DBE2EF;
+    font-family: "Hepta Slab", serif;
+}
+
+.skill-container1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #112D4E;
+}
+
+@media (max-width: 660px) {
+    .skill-container1{
+        flex-direction: column;
+        text-align: center;
+    }
+    .list-group{
+        padding-bottom: 1.5rem;
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+    }
+}
+
+
+.resume-overview {
+    text-align: center;
+    font-family: "Hepta Slab", serif;
+    color: #112D4E;
+}
+
+.resume-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-resume {
+    background-color: #112D4E !important;
+    color: #DBE2EF !important;
+}
+
+.project-title {
+    text-align: center;
+    font-family: "Hepta Slab", serif;
+    color: #112D4E;
+}
+
+.projects {
+    background-color: #DBE2EF;
+}
+
+.d-flex {
+    justify-content: end;
+    color: #112D4E !important;
+}
+
+.card-cover {
+    background-color: #112D4E !important;
+}
+
+img {
+    object-fit: cover;
+    max-height: 200px;  
+}  
+
+.album {
+    display: flex;
+    justify-content: space-around;
+    color: #112D4E;
+}
+
+.hobby-title {
+    display: flex;
+    justify-content: center;
+    font-family: "Hepta Slab", serif;
+    color: #112D4E;
+}
+
+.hobby-card {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.hobbies {
+    background-color: #DBE2EF;
+}
+
+.card-body {
+    color: #112D4E !important;
+}
+
+@media (max-width: 767px) {
+    .album{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hobby-card{
+        width: 75% !important;
+    }
+}
+
+.contact {
+    background-color: #112D4E !important;
+    color: #DBE2EF !important;
+    font-family: "Hepta Slab", serif;
+
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.by {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    background-color: #DBE2EF;
+}
+
