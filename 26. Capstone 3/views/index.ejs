@@ -1,10 +1,10 @@
 <h1>Mini Blog</h1>
 
-<% if (locals.entryTitle && locals.entryBody) { %>
+<% if (locals.entryTitle && locals.entryContent) { %>
 <div class='newEntry'>
     <h4><%=entryTitle%></h4>
-    <p><%=entryBody%></p>
-    <button><a href="edit">Edit</a></button>
+    <p><%=entryContent%></p>
+    <button><a href="replace">Edit</a></button>
     <button><a href="delete">Delete</a></button>
 </div>
 <% } else { %>
