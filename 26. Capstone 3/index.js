@@ -32,6 +32,10 @@ app.get("/delete", (req, res) => {
     res.redirect("/");
   });
 
+  app.get("/home", (req, res) => {
+    res.redirect("/");
+  });
+
 
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);

@@ -1,5 +1,7 @@
 body {
     background-color: #F3F3E0 !important;
+    color: #27548A !important;
+    text-align: center !important;
 }
 
 .header {
@@ -15,7 +17,7 @@ body {
     text-align: center;
 }
 
-#add-entry{
+.add-entry{
     background-color: #DDA853;
     color: #27548A;
     border: solid #DDA853;
@@ -43,4 +45,28 @@ body {
         text-align: center;
         justify-content: space-around;
     }
+}
+
+h4, h1, .input-form {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: bold !important;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+a:link {
+    text-decoration: none;
+    color: #27548A;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #27548A;
+}
+
+p, a {
+  font-family: "Old Standard TT", serif;
+  font-weight: 500;
+  font-style: normal;
 }
