@@ -1,5 +1,10 @@
-<h1>Mini Blog</h1>
+<%- include('partials/header.ejs') %>
+<div class="header py-3">
+    <h1>Mini Blog</h1>
+</div>
 
+
+<body>
 <% if (locals.entryTitle && locals.entryContent) { %>
 <div class='newEntry'>
     <h4><%=entryTitle%></h4>
@@ -24,3 +29,6 @@
     <p>Gummi bears dessert gummi bears cheesecake apple pie. Pudding topping wafer icing sweet roll. Gingerbread halvah carrot cake brownie pudding icing liquorice powder. Chocolate bar ice cream liquorice chocolate wafer. Cake croissant bonbon sugar plum pudding toffee pastry. Biscuit soufflé topping fruitcake biscuit. Halvah gingerbread toffee jelly beans tiramisu dessert chupa chups. Sugar plum soufflé pie chupa chups candy canes soufflé dragée. Ice cream dragée caramels gummi bears cake pudding cotton candy.<br>Fruitcake tiramisu ice cream cake cake caramels cupcake powder. Apple pie oat cake chupa chups shortbread pastry fruitcake dragée croissant gummies. Pudding chocolate cake halvah toffee muffin cake gummi bears. Gingerbread gummi bears shortbread toffee gummi bears jujubes oat cake cake. Pudding chocolate bar oat cake sweet roll jelly-o danish chocolate cake. Pastry shortbread toffee toffee halvah pastry. Gummies brownie shortbread sweet ice cream bonbon. Halvah tart pudding dragée lemon drops. Dragée jelly beans sugar plum chocolate liquorice.<br>Cupcake jelly marshmallow marshmallow chocolate bar carrot cake wafer danish. Bear claw tart marzipan wafer toffee croissant. Lemon drops oat cake topping gummies cookie brownie chupa chups apple pie. Sweet cookie croissant cupcake lemon drops. Bonbon jelly-o shortbread icing tootsie roll cheesecake. Jelly beans caramels danish caramels halvah caramels. Carrot cake jelly-o oat cake muffin jujubes gummies. Halvah cookie jujubes caramels jujubes marshmallow gummi bears biscuit sweet roll. Jelly tootsie roll pastry jelly-o lemon drops. Tart brownie brownie chocolate candy halvah liquorice pudding.</p>
     </div>
 <hr>
+
+<%- include('partials/footer.ejs') %>
+</body>

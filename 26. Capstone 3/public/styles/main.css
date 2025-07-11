@@ -1,0 +1,46 @@
+body {
+    background-color: #F3F3E0 !important;
+}
+
+.header {
+    background-color: #27548A;
+    color: #F3F3E0;
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.input{
+    width: 100%;
+    text-align: center;
+}
+
+#add-entry{
+    background-color: #DDA853;
+    color: #27548A;
+    border: solid #DDA853;
+    border-radius: 10px;
+}
+
+.input-field{
+    color: #27548A;
+    background-color: #DDA85380;
+    border: solid #DDA85380;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+::placeholder{
+    color: #27548A;
+}
+
+@media (max-width: 450px) {
+    .input-form{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        display: flex !important; 
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+    }
+}
